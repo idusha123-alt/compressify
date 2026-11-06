@@ -5,7 +5,7 @@ const fetchJson = async (url) => {
     try {
         const formData = new FormData()
         formData.append('images', url) 
-        const response = await axios.post(`${API_BASE_URL}`, formData)
+        const response = await axios.post(`${API_BASE_URL}/api/analyze-image`, formData)
         return response.data
     }
     catch(e) {
