@@ -34,9 +34,9 @@ function App() {
 
   return (
     <div className="w-full min-h-screen font-sans bg-[#f1f5f9] flex flex-col">
-      <div className="bg-[#1e293b] h-[25vh] flex items-center justify-center px-[5vw]">
+      <div className="bg-[#1e293b] h-[25vh] flex items-center justify-center px-[5vw] h-100">
         <h1 className="text-[#10b981] font-bold tracking-tight text-[clamp(5rem,12vw,10rem)]">
-          Summify
+          Compressify
         </h1>
       </div>
 
